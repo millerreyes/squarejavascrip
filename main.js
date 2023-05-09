@@ -1,7 +1,11 @@
-var button = document.querySelector('button');
-var box = document.getElementById('changeme');
-button.onclick = function changeColor(){
-    box.style.background='red';
-    
-}
+#changeme{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background: blue;
+    margin: 20px auto;
 
+}
+body{
+    text-align: center;
+}
