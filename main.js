@@ -1,11 +1,12 @@
-#changeme{
-    width: 400px;
-    height: 400px;
-    margin: 20px;
-    background: blue;
-    margin: 20px auto;
+var button = document.querySelector('button');
+var box = document.getElementById('changeme');
 
-}
-body{
-    text-align: center;
+function changeColor(){
+    if(box.style.background=='red'){
+        box.style.background= 'blue';
+    }
+    else{
+        box.style.background='red';
+
+    }
 }
